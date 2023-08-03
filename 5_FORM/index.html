@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Formulários</h2>
+    <!-- 1 primeiro formulário -->
+    <!-- 2 métodos do formulário -->
+    <form action="register.php" method="POST">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- 3 atributo nome -->
+        <div>
+            <!-- 4 atributo for(label) -->
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!-- 6 select -->
+        <div>
+            <label for="job">Selecione sua profissão:</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="devops">DevOps</option>
+            </select>
+        </div>
+
+        <!-- 7 atributo selected(select) -->
+        <div>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+
+        <!-- 8 multiplas opções (multiple)-->
+        <div>
+            <label for="itens">Selecione os itens desejados:</label>
+            <select name="itens" multiple>
+                <option value="arroz">Arroz</option>
+                <option value="feijao">Feijão</option>
+                <option value="batata">Batata</option>
+                <option value="macarrao">Macarrão</option>
+            </select>
+        </div>
+        <!-- 9 textarea -->
+        <div>
+            <label for="comment">Escreva o que você achou do post:</label>
+            <textarea name="comment"></textarea>
+        </div>
+        <!-- 10 fieldset e legend -->
+        <fieldset>
+            <legend>Preencha suas informações:</legend>
+            <label for="firstname">Nome:</label>
+            <input type="text" name="firstname">
+            <label for="lastname">Sobrenome:</label>
+            <input type="text" name="lastname">
+        </fieldset>
+
+        <!-- 11 datalist -->
+        <div>
+            <label for="sabor">escolha o sabor:</label>
+            <input type="text" list="sabores" name="sabor">
+
+            <datalist id="sabores">
+                <option value="Napolitano"></option>
+                <option value="Ovomaltine"></option>
+                <option value="Chocomenta"></option>
+                <option value="Céu azul"></option>
+            </datalist>
+        </div>
+
+        <!-- 12 password -->
+        <div>
+            <label for="senha">Digite sua senha para logar:</label>
+            <input type="password" name="senha">
+        </div>
+
+        <!-- 14 radio buttom -->
+        <div>
+            <label for="model_car">Escolha a marca do seu carro:</label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="model_car">
+                <label for="bmw">BMW</label>
+                <input type="radio" value="chevrolet" name="model_car">
+                <label for="chevrolet">Chevrolet</label>
+                <input type="radio" value="ford" name="model_car">
+                <label for="ford">Ford</label>
+                <input type="radio" value="audi" name="model_car">
+                <label for="audi">Audi</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="esse" name="model_car">
+                <label for="esse">Pode ser assim também</label>
+            </div>
+        </div>
+            <!-- 15 check-box -->
+            <div>
+                <label for="opcionais">Opicionais do carro:</label>
+                <div class="radio">
+                    <input type="checkbox" name="opcionais[]" value="pneus_grandes">
+                    <label for="pneus_grandes">Pneus grandes</label>
+                    <input type="checkbox" name="opcionais[]" value="motor_turbo">
+                    <label for="motor_turbo">Motor turbo</label>
+                </div>
+                <label for="cores">Cor do carro:</label>
+                <div class="radio">
+                    <input type="checkbox" name="cores[]" value="preto">
+                    <label for="preto">Preto</label>
+                    <input type="checkbox" name="cores[]" value="branco">
+                    <label for="branco">Branco</label>
+                </div>
+            </div>
+
+            <!-- 16 data -->
+            <div>
+                <label for="aniversario">Data de nascimento:</label>
+                <input type="date" name="aniversario">
+            </div>
+
+            <!-- 17 arquivos -->
+            <div>
+                <label for="imagem">Insira sua imagem:</label>
+                <input type="file" name="imagem">
+            </div>
+
+            <!-- 18 numeros -->
+            <div>
+                <label for="salario">Quanto você ganha no emprego atual:</label>
+                <input type="number" name="salario">
+            </div>
+
+            <!-- 19 emails -->
+            <div>
+                <label for="email">Digite seu email:</label>
+                <input type="email" name="email">
+            </div>
+
+            <!-- 20 value -->
+            <div>
+                <label for="value">digite algum valor:</label>
+                <input type="text" value="O meu valor é esse" name="value">
+            </div>
+        
+            <!-- 21 disable -->
+            <div>
+                <p>Tente mudar o valor:</p>
+                <input type="text" value="não precisa preencher" disabled>
+            </div>
+
+            <!-- 22 placeholder -->
+            <div>
+                <label for="emprego_atual">digite sua profissão atual:</label>
+                <input type="text" name="emprego_atual" placeholder="No que está trabalhando agora">
+            </div>
+
+            <!-- 23 required -->
+            <div>
+                <label for="ano_nasci">Digite o ano que você nasceu:</label>
+                <input type="text" name="ano_nasci" placeholder="Ano em que você nasceu" required>
+            </div>
+        <!-- 13 resetar form -->
+        <input type="reset" value="Limpar">
+        <!-- 5 enviando form -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

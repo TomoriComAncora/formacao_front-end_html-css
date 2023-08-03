@@ -1,0 +1,215 @@
+/* reset css da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+/* container */
+#main-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+#banner-container,
+#form-container{
+    flex: 1 1 0;
+    width: 50%;
+}
+
+#banner-container{
+    text-align: right;
+}
+
+#banner-container img{
+    width: 100%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    max-width: 380px;
+}
+
+#form-container{
+    text-align: center;
+}
+
+/* login form */
+#form-box{
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logo-insta{
+    width: 175px;
+    height: 55px;
+    margin: 40px auto 12px;
+}
+
+#login-form{
+    margin-top: 20px;
+}
+
+#login-form input{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 270px;
+    margin: 7px auto;
+}
+
+#login-form input[type = "submit"]{
+    background-color: #4CB4F8;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 9px;
+    padding: 9px 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#login-form input[type = "submit"]:hover{
+    background-color:  #1877F2;
+}
+
+/* Separador */
+.separador{
+    position: relative;
+}
+
+.line{
+    border-top: 1px solid #DBDBDB;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separador span{
+    position: absolute;
+    text-transform: uppercase;
+    color: #737373;
+    background-color: #FFF;
+    top: -6px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* facebook login */
+#facebook-login{
+    margin-bottom: 25px;
+}
+
+#facebook-login a{
+    text-decoration: none;
+    color: #3851A3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebook-login span{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+#facebook-login a:hover{
+    color: #3842B4;
+}
+
+#facebook-login img{
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+/* Esqueceu senha */
+#esqueceu-senha{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#esqueceu-senha a{
+    text-decoration: none;
+    color: #00376B;
+}
+
+/* register container */
+#register-container{
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#register-container p{
+    font-size: 13px;
+    color: #262626;
+}
+
+#register-container a{
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: bold;
+}
+
+/* instale o aplicativo */
+#instale-app{
+    text-align: center;
+    width: 350px;
+}
+
+#instale-app p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+#instale-app a{
+    text-decoration: none;
+}
+
+#instale-app img{
+    width: 136px;
+    height: 40px;
+}
+
+/* footer */
+footer{
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer-links{
+    display: flex;
+    list-style: none;
+}
+
+#footer-links li{
+    margin-right: 10px;
+}
+
+#footer-links a,
+#copyrigth{
+    text-decoration: none;
+    color: #8E8E8E;
+    font-size: 12px;
+}
+
+#copyrigth{
+    margin-top: 10px;
+}

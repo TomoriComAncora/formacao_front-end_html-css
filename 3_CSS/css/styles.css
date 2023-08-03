@@ -1,0 +1,524 @@
+/*4-External css*/
+h3{
+    color: seagreen;
+    font-size: 45px;
+}
+
+/* comentário */
+
+/* classes */
+/* .paragrafos{
+    color: greenyellow;
+    background-color: #000;
+    font-size: 33px;
+    font-weight: bold;
+} */
+
+/* ID */
+#id-unico{
+    color: blueviolet;
+    background-color: rgb(250, 169, 17);
+    padding: 15px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+h2{
+    border-bottom: 1px solid red;
+}
+
+.classe{
+    border-bottom: 2px solid green;
+}
+
+#unico{
+    border-bottom: 3px solid blue;
+}
+
+/* 11-nome de cores */
+.color-name{
+    color: maroon;
+}
+
+/* 12-cor-hex */
+.hex{
+    color: #55a398;
+}
+
+.hex2{
+    color: #11045e;
+}
+
+/* 13 - mais sobre hex */
+/* #333333 */
+.simple-hex{
+    color: #333;
+}
+
+/* #AA55FF */
+.simple-hex2{
+    color: #A5F;
+}
+
+/* 14-rbg */
+.rgb{
+    color: rgb(250, 0, 0);
+}
+
+.rgb2{
+    color: rgb(08, 53, 82);
+}
+
+/* 15-rgba */
+.rgba{
+    color: rgba(200, 199, 45, 0.5);
+}
+
+/* 16-HSL */
+.hsl{
+    color: hsl(255, 11%, 52%);
+}
+
+.hsl2{
+    color: hsl(73, 88%, 78%);
+}
+
+/* 17-backgroud */
+.bg{
+    background-color: #000;
+}
+
+.bg2{
+    background-color: #4f3a03;
+    color: #00eaff;
+}
+
+/* 18-Opacidade */
+.bg-opacidade{
+    background-color: #550101;
+    opacity: 0.2;
+}
+
+.bg-opacidade2{
+    background-color: #550101;
+    color: #000;
+    opacity: 0.5;
+}
+
+/* 19-opacidade rgba */
+.opacrgba{
+    background-color: rgba(200, 45, 45, 0.5);
+    color: #000;
+}
+
+/* 20-bg-imagem */
+.bg-imagem{
+    background-image: url(../img/nature.jpg);
+    padding: 34px;
+    color: #fff;
+}
+
+/* 21-centralizando img */
+.nao-central-bg, .bg-centrali{
+    background-image: url(../img/bridge.jpg);
+    width: 350px;
+    height: 350px;
+}
+
+.bg-centrali{
+        background-position: center;
+        background-size: cover;
+}
+
+/* 22- largura e altura */
+.height-width{
+    height: 100px;
+    width: 200px;
+    background-color: #550101;
+}
+
+.height-width-2{
+    height: 200px;
+    background-color: #11045e;
+}
+
+/* 23- padding */
+.not-padding, .padding{
+    background-color: #111;
+    color: #FFF;
+}
+
+.padding{
+    background-color: #333;
+    padding: 20px;
+}
+
+/* 24- padding individual */
+.padding-individual{
+    background-color: #333;
+    color: #FFF;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+/* 25- shothand-padding */
+.shothand-padding{
+    background-color: #444;
+    padding: 5px 10px 15px 20px;
+}
+
+.shothand-padding2{
+    background-color: #444;
+    padding: 11px 24px;
+}
+
+/* 26 - padding com width */
+.not-border-box{
+    background-color: #444;
+    color: #FFF;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #777;
+    color: #FFF;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/*27- border */
+.border{
+    border: 10px solid #550101;
+    padding: 10px;
+}
+
+.border-2{
+    border: 2px dotted #ff0000;
+    padding: 25px;
+}
+
+/* 28- border individual*/
+.border-left{
+    border-left: 7px solid #F00;
+    background-color: #999;
+    color: #FFF;
+    padding: 20px 10px;
+}
+
+.border-bottom{
+    border-bottom: 7px double #F00;
+    background-color: #999;
+    color: #FFF;
+    padding: 20px 10px;
+}
+
+/* 29-border radius */
+.p-arredondado{
+    border: 5px solid #00F;
+    border-radius: 11px;
+    background-color: #222;
+    color: #FFF;
+    padding: 15px;
+}
+
+.p-arredondado-2{
+    background-color: #222;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* margin */
+.margin{
+    margin: 10px;
+    background-color: #333;
+    color: #FFF;
+}
+
+.margin-top{
+    background-color: #444;
+    color: #FFF;
+    margin-top: 50px;
+    padding: 12px;
+}
+
+.margin-shorthand{
+    background-color: #555;
+    color: #FFF;
+    margin: 10px 15px 20px 25px;
+    padding: 10px;
+}
+
+/* 31 unindo o box model */
+.box-model{
+    background-color: #333;
+    color: #FFF;
+    width: 300px;
+    height: 250px;
+    padding: 35px 25px;
+    border: 3px solid #F00;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+
+/* 32 desafio 3 */
+#box-model-des{
+    background-color: #333;
+    width: 300px;
+    height: 180px;
+    padding: 15px 10px;
+    border:3px dotted #F00;
+    margin: 20px;
+    border-radius: 3px;
+    outline: 3px solid #00F;
+}
+
+.texto{
+    background-color: rgba(85, 85, 85, 0.2);
+    color: #FFF;
+    border: none;
+}
+
+/* 33 text aling */
+.texto-alinhado{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    height: 180px;
+    border: 2px solid #F00;
+}
+
+/* 34 text decoration */
+.underline{
+    text-decoration: underline;
+}
+
+.linha-risco{
+    text-decoration: line-through;
+}
+
+.remover-underline{
+    text-decoration: none;
+    color: #000;
+}
+
+/* 35 transformação de texto */
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/*36 Espaçamento de texto */
+.espaco{
+    letter-spacing: 13px;
+}
+
+/* 37 fontes */
+.serif{
+    font-family: Georgia;
+}
+
+.sans-serif{
+    font-family: Helvetica;
+}
+
+.monospace{
+    font-family: Courier New;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* 38 Font style */
+.italico{
+    font-style: italic;
+}
+
+.oblico{
+    font-style: oblique;
+}
+
+/* 39 font weigth */
+.fino, .bold, .bolder{
+    font-family: Helvetica;
+}
+
+.fino{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* 40 font size */
+.pequeno{
+    font-size: 16px;
+}
+
+.grande{
+    font-size: 54px;
+}
+
+/* 41 display */
+.inline-box{
+    background-color: #00eaff;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.span{
+    background-color: #11045e;
+    color: #FFF;
+    margin: 10px;
+    display: block;
+}
+
+/* 42 Escondendo elemento */
+.invisivel{
+    display: none;
+}
+
+/* 43 static */
+.static{
+    position: static;
+    background-color: #392;
+    color: #FFF;
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+/* 44 relative */
+.relative{
+    position: relative;
+    background-color: #536;
+    color: #FFF;
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    top: 35px;
+    left: 64px;
+    box-sizing: border-box;
+}
+
+/* 45 absolute */
+.absolute{
+    position: absolute;
+    background-color: #abc;
+    color: #FFF;
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    top: 2px;
+    right: 2px;
+    box-sizing: border-box;
+}
+
+/* 46 relative com absolute */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #F00;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute1, .absolute2{
+    width: 50px;
+    height: 50px;
+    background-color: #432122;
+    position: absolute;
+}
+
+.absolute1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* 47 fixed */
+.fixed{
+    width: 1310px;
+    height: 40px;
+    border: 1px solid #ED3;
+    margin-top: 120px;
+    position: fixed;
+    top: 1px;
+    right: 20px;
+    background-color: rgba(08, 53, 82, 0.5);
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* 48 sticky */
+.sticky{
+    width: 1310px;
+    height: 40px;
+    border: 1px solid #C4f;
+    margin-top: 120px;
+    position: sticky;
+    top: 10px;
+    background-color: rgba(01, 48, 11, 0.5);
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* 49 z-index */
+.absolute3, .absolute4, .absolute5{
+    width: 50px;
+    height: 50px;
+    background-color: #CF2;
+    position: absolute;
+}
+
+.absolute3{
+    top: 0px;
+    left: 0px;
+    background-color: #098;
+    z-index: 2;
+}
+
+.absolute4{
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 4;
+}
+
+.absolute5{
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+}

@@ -1,0 +1,221 @@
+body{
+    margin-bottom: 500px;
+}
+
+/* 1 flex */
+.flex{
+    display: flex;
+    background-color: #CCC;
+    margin-bottom: 20px;
+}
+
+/* 2flex direction colum */
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC;
+    margin-bottom: 20px;
+
+}
+
+/* 3 flex wrap */
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.box{
+    height: 50px;
+    width: 33%;
+    border: 1px solid #F00;
+}
+
+/* 5 center */
+.center{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box{
+    width: 50px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.space-around .box{
+    width: 50px;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.space-between .box{
+    width: 60px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.end{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.end .box{
+    width: 70px;
+}
+
+.end{
+    justify-content: end;
+}
+
+/* 6 aling items */
+.aling-center,
+.flex-end,
+.stretch{
+    display: flex;
+    margin-bottom: 20px;
+    height: 150px;
+    border: 1px solid #00F;
+}
+
+.aling-center .box,
+.flex-end .box,
+.stretch .box{
+    width: 50px;
+}
+
+.aling-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-end{
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.stretch .box{
+    height: auto;
+}
+
+/* 7- gap */
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #080;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gap .box{
+    width: 32%;
+}
+
+/* 8 order */
+.order{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#um{
+    order: 1;
+}
+
+#dois{
+    order: 2;
+}
+
+#tres{
+    order: 3;
+}
+
+/* 9 grow */
+.grow{
+    display: flex;
+}
+
+.grow .box{
+    flex: 1;
+}
+
+.grow .big{
+    flex: 2;
+}
+
+/* 10 basis */
+.basis{
+    display: flex;
+}
+
+.basis .box{
+    flex-basis: 40px;
+}
+
+.basis .big{
+    flex: 10;
+}
+
+/* 11 shrink */
+.shrink{
+    display: flex;
+}
+
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+.shrink .small{
+    flex-shrink: 3;
+}
+
+/* 12 shorthand */
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .diferente{
+    flex: 4 2 10px;
+}
+
+/* 13 auto alinhamento */
+.auto-aling{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 1px solid #808
+}
+
+.auto-aling .diferente{
+    align-self: stretch;
+    height: auto;
+}
