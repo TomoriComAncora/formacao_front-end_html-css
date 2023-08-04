@@ -215,7 +215,7 @@ footer #footer-links{
 }
 
 /* mobile */
-@media screen and (max-width: 380px){
+@media screen and (max-width: 450px){
     body{
         background-color: #FFF;
     }
@@ -238,7 +238,7 @@ footer #footer-links{
     }
 
     footer{
-        width: 80%;
+        width: 70%;
     }
 
     #footer-links{
@@ -248,6 +248,19 @@ footer #footer-links{
     }
 }
 
-@media screen and (max-width: 450px){
-    
+@media screen and (max-width: 780px){
+    #banner-container img{
+        margin: 30px;
+    }
+
+    #form-container{
+        margin-left: 60px;
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #instale-app{
+        width: 100%;
+    }
 }
