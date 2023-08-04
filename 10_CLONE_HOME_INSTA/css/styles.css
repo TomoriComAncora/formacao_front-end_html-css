@@ -213,3 +213,41 @@ footer #footer-links{
 #copyrigth{
     margin-top: 10px;
 }
+
+/* mobile */
+@media screen and (max-width: 380px){
+    body{
+        background-color: #FFF;
+    }
+
+    #banner-container{
+        display: none;
+    }
+
+    #main-container,
+    #form-box{
+        margin-top: 0;
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #instale-app{
+        border: none;
+        width: 100%;
+    }
+
+    footer{
+        width: 80%;
+    }
+
+    #footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+}
