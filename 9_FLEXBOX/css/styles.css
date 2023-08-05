@@ -193,6 +193,7 @@ body{
 }
 
 /* 12 shorthand */
+/* grow-shrink-basis */
 .shorthand{
     display: flex;
 }
