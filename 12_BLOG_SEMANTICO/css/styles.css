@@ -87,6 +87,46 @@ a:hover{
     font-weight: bold;
 }
 
+/* parceiros */
+.parceiros-container{
+    margin-top: 1rem;
+    border-top: 2px solid #DDD;
+}
+
+.parceiros-container h2,
+.parceiros-container p{
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.parceiros-container h2{
+    font-size: 45px;
+}
+
+.titulo-img{
+    font-size: 23px;
+    margin-bottom: 1rem;
+}
+
+.parceiros-container img{
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.parceiros-container ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+.parceiros-container li{
+    padding: 20px;
+}
+
+.parceiros-container .parceiros{
+    padding: 20px;
+}
 /* barra lateral */
 .lateral-container{
     flex: 1 1 0;
@@ -165,7 +205,7 @@ a:hover{
     #limitador-navbar h2{
         font-size: 20px;
     }
-    
+
     #nav-link{
         display: flex;
         gap: 0.8rem;
@@ -173,5 +213,10 @@ a:hover{
 
     .container{
         flex-wrap: wrap;
+    }
+
+    .parceiros-container ul{
+        flex-direction: column;
+        width: 100%;
     }
 }
