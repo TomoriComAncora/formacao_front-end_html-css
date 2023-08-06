@@ -127,6 +127,41 @@ a:hover{
 .parceiros-container .parceiros{
     padding: 20px;
 }
+
+/* contatos */
+#contato{
+    margin-top: 1rem;
+    border-top: 2px solid #DDD;
+}
+
+#contato h2,
+#contato p{
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+#contato h2{
+    font-size: 45px;
+}
+
+#contato a{
+    display: flex;
+}
+
+#contato ul{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#contato li{
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.fas{
+    font-size: 25px;
+    margin-right: 1rem;
+}
 /* barra lateral */
 .lateral-container{
     flex: 1 1 0;
