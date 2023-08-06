@@ -151,6 +151,8 @@ a:hover{
 #contato ul{
     display: flex;
     flex-wrap: wrap-reverse;
+    font-size: 25px;
+    align-items: center;
 }
 
 #contato li{
@@ -253,5 +255,10 @@ a:hover{
     .parceiros-container ul{
         flex-direction: column;
         width: 100%;
+    }
+
+    #contato ul{
+        font-size: 15px;
+        align-items: center;
     }
 }
